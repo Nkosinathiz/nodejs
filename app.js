@@ -54,3 +54,18 @@ yargs.command({
 })
 
 console.log(yargs.argv)
+
+const users = [{
+    name: 'Andrew Mead',
+    age: 27
+}, {
+    name: 'George Hudson',
+    age: 54
+}, {
+    name: 'Clay Ckay',
+    age: 45
+}]
+
+const user = users.find((user) => user.name === 'George Hudson')
+
+console.log(user) // Will print the second name in the array
