@@ -1,6 +1,6 @@
 const book = {
     title: 'Ego is the enemy',
-    authot: 'Ryan Holiday'
+    author: 'Ryan Holiday'
 }
 
 // Convert JavaScript object into JSON 
